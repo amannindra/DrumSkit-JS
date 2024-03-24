@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="Drumbeat.css" />
+    <title>Sound Website</title>
   </head>
-  <body>
+  <body class="screen">
     <audio
       id="boom"
       src="sound/01 - JavaScript Drum Kit_sounds_boom.wav"
@@ -39,16 +40,16 @@
       src="sound/01 - JavaScript Drum Kit_sounds_tink.wav"
     ></audio>
     <audio id="tom" src="sound/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
-    <div class="buttonCss">
-      <button onclick="playboom()">play boom</button>
-      <button onclick="playclap()">play clap</button>
-      <button onclick="playhihat()">play hihat</button>
-      <button onclick="playkick()">play kick</button>
-      <button onclick="playhat()">play hat</button>
-      <button onclick="playride()">play ride</button>
-      <button onclick="playsnare()">play snare</button>
-      <button onclick="playtink()">play tink</button>
-      <button onclick="playtom()">play tom</button>
+    <div class="buttonClass">
+      <button id = "button1" onclick="playboom()"></button>
+      <button id = "button2"onclick="playclap()"></button>
+      <button id = "button3"onclick="playhihat()"></button>
+      <button id = "button4"onclick="playkick()"></button>
+      <button id = "button5"onclick="playhat()"></button>
+      <button id = "button6"onclick="playride()"></button>
+      <button id = "button7"onclick="playsnare()"></button>
+      <button id = "button8"onclick="playtink()"></button>
+      <button id = "button9"onclick="playtom()"></button>
     </div>
 
     <script src="Drumbeat.js"></script>
